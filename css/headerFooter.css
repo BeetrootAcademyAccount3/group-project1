@@ -1,0 +1,151 @@
+.calibriFont {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 47px;
+  left: 0px;
+  bottom: 0px;
+  background: #000000;
+  color: white;
+}
+
+#allRights {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-size: 15px;
+}
+
+#paw {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 32px;
+  top: 14px;
+  color: #ffc0cb;
+  background-image: url("../assets/svg/paw-solid.svg");
+  background-size: 100%;
+}
+
+#aboutUs {
+  position: absolute;
+  width: 80px;
+  height: 46px;
+  right: 300px;
+  top: 20px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+  color: white;
+}
+
+#menu {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  right: 232px;
+  top: 20px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+  color: white;
+}
+
+#careers {
+  position: absolute;
+  width: 70px;
+  height: 46px;
+  right: 150px;
+  top: 20px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+  color: white;
+}
+
+#buttonOrder {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffc0cb;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 0px 0px 0px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+  color: white;
+}
+
+#socialButtonsContainer {
+  position: absolute;
+  right: 20px;
+}
+
+#buttonFb {
+  background-image: url("../assets/svg/facebook.svg");
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-size: 100%;
+  top: 10px;
+  right: 67px;
+}
+
+#buttonInsta {
+  background-image: url("../assets/svg/instagram.svg");
+  position: absolute;
+  height: 24px;
+  width: 20px;
+  background-size: 100%;
+  top: 10px;
+  right: 0px;
+}
+
+#buttonLinked {
+  background-image: url("../assets/svg/linkedin.svg");
+  position: absolute;
+  height: 24px;
+  width: 20px;
+  background-size: 100%;
+  top: 10px;
+  right: 34px;
+}
+
+/*# sourceMappingURL=headerFooter.css.map */
