@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+main {
+  display: grid;
+  place-items: center;
+}
+
+.menu-title {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc0cb;
+  font-size: 7rem;
+  line-height: 100px;
+  margin-left: 2.6rem;
+}
+
+.menu-card {
+  margin: 13vh 0;
+  height: auto;
+  width: 60%;
+  background-color: black;
+  background-repeat: no-repeat;
+  border: 12px solid #ffc0cb;
+  border-radius: 20px;
+}
+.menu-card img {
+  border: 12px solid #ffc0cb;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translate(0, 0) scale(0.9);
+}
+
+.selection-icon-title {
+  font-family: Calibri, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  font-size: 3.5rem;
+  line-height: 78px;
+  color: white;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  margin-left: 4rem;
+}
+
+.menu-card-selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  overflow: hidden;
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.nonalco-card,
+.alcohol-card,
+.sauses-card,
+.salads-card,
+.appetizer-card {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.maindish-card {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  grid-row: span 3;
+  grid-column: 1;
+  width: 100%;
+  height: 107%;
+  margin-top: -13%;
+}
+
+.desserts-card {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  grid-row: 5;
+  grid-column: span 2;
+  width: 106%;
+  height: 100%;
+  margin-left: -3%;
+}
+
+.icon-title-desserts {
+  margin-left: 100px;
+}
+
+.icon-title-maindish {
+  bottom: 3%;
+  left: 3%;
+}/*# sourceMappingURL=menubook.css.map */

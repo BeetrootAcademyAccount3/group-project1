@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/headerFooter.css" />
+    <link rel="stylesheet" href="./css/applicationform.css" />
+
+    <title>Application Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="paw"></div>
+      <a href="#" id="aboutUs">About us</a>
+      <a href="#" id="menu">Menu</a>
+      <a href="#" id="careers">Careers</a>
+      <a href="#" id="buttonOrder">ORDER NOW</a>
+    </header>
+    <main>
+      <section class="form-container">
+        <h1 class="job-application-title">Job Application</h1>
+        <form action="" id="form-application">
+          <div class="first-name-element">
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname">
+          </div>
+          <div class="last-name-element">
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname">
+          </div>
+          <div class="email-element">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div class="job-selector-element">
+            <label for="job-role">Job Role</label>
+            <select name="job-role" id="job-role">
+              <option value="waiter">Waiter</option>
+              <option value="assistant-manager">Assistant Manager</option>
+              <option value="cook">Cook</option>
+              <option value="receptionist">Receptionist</option>
+              <option value="delivery">Delivery</option>
+            </select>
+          </div>
+
+          <div class="message-area-element">
+            <label for="meggage">Enter Address</label>
+            <textarea name="message" id="message" placeholder="Enter your message here..."></textarea>
+           </div>
+          
+          <div class="file-upload-element">
+            <label for="file-upload">Upload your CV</label>
+            <input type="file" id="file-upload" name="file-upload" multiple>
+          </div>
+          <button type="submit">Apply Now</button>
+      </form>
+  
+      </section>
+    </main>
+    <footer class="footer">
+      <div id="allRights">© All Rights Reserved 2023</div>
+      <div id="socialButtonsContainer">
+        <a href="#" id="buttonInsta"></a>
+        <a href="#" id="buttonFb"></a>
+        <a href="#" id="buttonLinked"></a>
+      </div>
+  </body>
+</html>
