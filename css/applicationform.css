@@ -1,0 +1,127 @@
+main {
+  display: grid;
+  place-items: center;
+}
+
+.form-container {
+  background-color: #ffc0cb;
+  width: 50vw;
+  height: auto;
+  min-height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  border: 0.5vh solid rgba(197, 92, 166, 0.274);
+  border-radius: 1vh;
+}
+
+.job-application-title {
+  margin: 5vh 5vh 5vh 6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 46px;
+}
+
+#form-application {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+}
+
+#form-application input,
+select,
+textarea {
+  margin-bottom: 2vh;
+  border: none;
+}
+
+#form-application label {
+  margin: 0.5vw 2vw 2vw 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 2.1rem;
+}
+
+#firstname,
+#lastname,
+#email {
+  width: 70%;
+  padding: 1.5vh;
+}
+
+#job-role {
+  width: 76%;
+  padding: 1.5vh;
+}
+
+#firstname,
+#lastname {
+  grid-column: span 1;
+  margin: 0.5vw 2vw 2vw 3vw;
+}
+
+#email,
+#job-role {
+  grid-column: span 1;
+  margin: 0.5vw 2vw 2vw 3vw;
+}
+
+#message {
+  grid-column: span 2;
+  width: 180%;
+  padding: 10px;
+  min-height: 150px;
+  margin: 0.5vw 0 0 3vw;
+}
+
+#file-upload {
+  grid-column: 2/3;
+  justify-self: start;
+  width: auto;
+  justify-self: end;
+}
+
+.file-upload-element {
+  grid-column: span 2;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3vw;
+}
+.file-upload-element label {
+  font-size: 64px;
+  padding: 0;
+}
+.file-upload-element input {
+  margin-top: 5vh;
+  background-color: white;
+}
+
+.file-upload-element label {
+  display: inline-block;
+  margin-left: -100px;
+  padding-left: -100px;
+  position: absolute;
+  top: 84vh;
+  left: 24.5vw;
+}
+
+button[type=submit] {
+  grid-column: span 2;
+  justify-self: center;
+  padding: 10px 20px;
+  background-color: #1b52df;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 3vh;
+  width: 50%;
+  font-family: Calibri, sans-serif;
+  border-bottom: 0.5vh solid rgb(100, 100, 100);
+  border-right: 0.5vh solid rgb(63, 61, 61);
+  border-top: 0.5vh solid rgb(117, 114, 114);
+  border-left: 0.5vh solid rgb(179, 167, 167);
+  border-radius: 5px;
+}/*# sourceMappingURL=applicationform.css.map */
