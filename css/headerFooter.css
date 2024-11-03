@@ -146,4 +146,24 @@
   background-size: 100%;
   top: 10px;
   right: 34px;
+}
+
+.application-footer {
+  position: relative;
+  width: 100%;
+  height: 47px;
+  left: 0px;
+  bottom: 0px;
+  background: #000000;
+  color: white;
+}
+
+.applicaton-header {
+  position: absolute;
+  width: 100%;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  color: white;
 }/*# sourceMappingURL=headerFooter.css.map */
