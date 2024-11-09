@@ -108,4 +108,24 @@ main {
 .icon-title-maindish {
   bottom: 3%;
   left: 3%;
+}
+
+.social-button_whatsapp {
+  background-color: grey;
+  width: 210px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: fixed;
+  right: 0;
+  top: 80vh;
+  border-radius: 50px 0 0 50px;
+}
+.social-button_whatsapp img {
+  transform: scale(0.9);
+}
+.social-button_whatsapp img:hover {
+  transform: scale(1);
+  transition: all 0.2s ease-in;
 }/*# sourceMappingURL=menubook.css.map */
