@@ -89,9 +89,8 @@
 
 #buttonOrder {
   position: absolute;
-
   right: 20px;
-  top: 15px;
+  top: 10px;
 
   width: 120px;
   height: 30px;
@@ -99,7 +98,7 @@
   background-color: #ffc0cb;
   text-align: center;
   display: inline-block;
-  padding: 5px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
 
   @include sairaFont(16px);
   @include topLink();
