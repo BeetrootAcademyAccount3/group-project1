@@ -38,10 +38,9 @@
   width: 24px;
   height: 24px;
   left: 32px;
-  top: 14px;
+  top: 2vh;
   color: #ffc0cb;
-  background-image: url("../assets/svg/paw-solid.svg");
-  background-size: 100%;
+  transform: scale(0.9);
 }
 
 #aboutUs {

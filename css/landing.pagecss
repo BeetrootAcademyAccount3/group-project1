@@ -1,0 +1,83 @@
+.hero-bear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+  background-color: black;
+  height: 40vh;
+  width: 100%;
+  padding: 50px;
+}
+.hero-bear h1 {
+  color: #ffc0cb;
+  font-family: "Sigmar One";
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 75px;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.page-content {
+  width: 60vw;
+  background-color: #d9d9d9;
+  margin-top: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 20vh 2vw;
+  gap: 11vw;
+}
+.page-content #img-waiter {
+  width: 130%;
+  height: auto;
+}
+.page-content .headline {
+  font-family: "Saira";
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 40vw;
+  height: auto;
+  margin-top: -5vh;
+  margin-right: -6vh;
+}
+.page-content .headline h2.book_table-title {
+  line-height: 56px;
+  width: 75%;
+  position: relative;
+}
+.page-content .headline .line-title {
+  position: absolute;
+  margin-left: -1%;
+  margin-top: 2.2%;
+  background-color: #00ffff;
+  width: 4px;
+  height: 15%;
+}
+.page-content .headline article p {
+  font-family: "Saira";
+  font-weight: 400;
+  line-height: 36px;
+  width: 77%;
+  height: auto;
+  font-size: 24px;
+}
+.page-content .headline #bookmeup {
+  background-color: #00ffff;
+  border: none;
+  border-radius: 20px;
+  width: 75%;
+  height: 8vh;
+  box-shadow: 3px 2px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.page-content .headline #bookmeup a {
+  color: white;
+  text-decoration: none;
+  font-family: "Saira";
+  font-weight: 700;
+  line-height: 32px;
+}/*# sourceMappingURL=landing.css.map */
