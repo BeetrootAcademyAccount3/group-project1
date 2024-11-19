@@ -1,5 +1,5 @@
 @mixin sairaFont($size) {
-  font-family: "Saira", sans-serif;
+  font-family: var(--text-main);
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: $size;
@@ -12,7 +12,7 @@
 }
 
 .calibriFont {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: var(--text-main);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -27,22 +27,6 @@
   top: 0px;
   background: #000000;
   color: white;
-}
-
-.footer {
-  position: relative;
-  width: 100%;
-  height: 47px;
-  left: 0px;
-  bottom: 0px;
-  background: #000000;
-  color: white;
-}
-#allRights {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  font-size: 15px;
 }
 
 #paw {
@@ -106,36 +90,8 @@
   @include topLink();
 }
 
-@mixin socialButton($url, $width) {
-  background-image: url($url);
-  position: absolute;
-  height: 24px;
-  width: $width;
-  background-size: 100%;
-  top: 10px;
-}
-#socialButtonsContainer {
-  position: absolute;
-  right: 20px;
-}
-
-#buttonFb {
-  @include socialButton("../assets/svg/facebook.svg", 24px);
-  right: 67px;
-}
-
-#buttonInsta {
-  @include socialButton("../assets/svg/instagram.svg", 20px);
-  right: 0px;
-}
-
-#buttonLinked {
-  @include socialButton("../assets/svg/linkedin.svg", 20px);
-  right: 34px;
-}
-
 .calibriFont {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: var(--text-main);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -151,23 +107,6 @@
   background: #000000;
   color: white;
   margin-bottom: 86px;
-}
-
-.footer {
-  position: fixed;
-  width: 100%;
-  height: 47px;
-  left: 0px;
-  bottom: 0px;
-  background: #000000;
-  color: white;
-}
-
-#allRights {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  font-size: 15px;
 }
 
 #paw {
@@ -186,7 +125,7 @@
   height: 46px;
   right: 300px;
   top: 20px;
-  font-family: "Saira", sans-serif;
+  font-family: var(--text-main);
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 18px;
@@ -202,7 +141,7 @@
   height: 20px;
   right: 232px;
   top: 20px;
-  font-family: "Saira", sans-serif;
+  font-family: var(--text-main);
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 18px;
@@ -218,7 +157,7 @@
   height: 46px;
   right: 150px;
   top: 20px;
-  font-family: "Saira", sans-serif;
+  font-family: var(--text-main);
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 18px;
@@ -239,7 +178,7 @@
   text-align: center;
   display: inline-block;
   padding: 10px 0px 0px 0px;
-  font-family: "Saira", sans-serif;
+  font-family: var(--text-main);
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 16px;
@@ -248,42 +187,3 @@
   text-decoration: none;
   color: white;
 }
-
-#socialButtonsContainer {
-  position: absolute;
-  right: 20px;
-}
-
-#buttonFb {
-  background-image: url("../assets/svg/facebook.svg");
-  position: absolute;
-  height: 24px;
-  width: 24px;
-  background-size: 100%;
-  top: 10px;
-  right: 67px;
-}
-
-#buttonInsta {
-  background-image: url("../assets/svg/instagram.svg");
-  position: absolute;
-  height: 24px;
-  width: 20px;
-  background-size: 100%;
-  top: 10px;
-  right: 0px;
-}
-
-#buttonLinked {
-  background-image: url("../assets/svg/linkedin.svg");
-  position: absolute;
-  height: 24px;
-  width: 20px;
-  background-size: 100%;
-  top: 10px;
-  right: 34px;
-<<<<<<< Updated upstream:css/headerFooter.css
-}/*# sourceMappingURL=headerFooter.css.map */
-=======
-} /*# sourceMappingURL=headerFooter.css.map */
->>>>>>> Stashed changes:css/layout/_headerFooter.scss

@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  height: 47px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px 64px;
+  background: var(--text-colorback);
+}
+
+.allRights {
+  top: 12px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.socialButtonsContainer {
+  right: 20px;
+}
+
+.buttonFb {
+  @include socialButton("../assets/svg/facebook.svg", 24px);
+  right: 67px;
+  height: 24px;
+  width: 24px;
+  background-size: 100%;
+  top: 10px;
+  right: 67px;
+}
+
+.buttonInsta {
+  @include socialButton("../assets/svg/instagram.svg", 20px);
+  right: 0px;
+  height: 24px;
+  width: 20px;
+  background-size: 100%;
+  top: 10px;
+  right: 0px;
+}
+
+.buttonLinked {
+  @include socialButton("../assets/svg/linkedin.svg", 20px);
+  right: 34px;
+  height: 24px;
+  width: 20px;
+  background-size: 100%;
+  top: 10px;
+  right: 34px;
+}
